@@ -12,4 +12,9 @@ public class MyString implements StringExpression{
     public String calculate() {
         return null;
     }
+
+   @Override
+    public String toString() {
+        return this.value;
+    }
 }
